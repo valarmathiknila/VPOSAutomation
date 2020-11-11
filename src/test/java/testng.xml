@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="1stPayVPOS: CreatePayLink" preserve-order="true">
+
+<test name="01_TestBase" preserve-order="true">
+<classes>
+<class name="testClassCreatePaylink.baseClass" />
+</classes>
+</test>
+
+<test name="02_eCommerce_PayBylink" preserve-order="true">
+<classes>
+<class name ="testClassCreatePaylink.eCommerceMakePayment"/>
+</classes>
+</test>
+
+
+</suite>
+
+
+

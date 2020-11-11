@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [1stPayVPOS: CreatePayLink]">
+  <test thread-count="5" name="02_eCommerce_PayBylink(failed)">
+    <classes>
+      <class name="testClassCreatePaylink.eCommerceMakePayment">
+        <methods>
+          <include name="NavigatetoURL"/>
+          <include name="fnClose"/>
+          <include name="fnDeleteMasterCard"/>
+        </methods>
+      </class> <!-- testClassCreatePaylink.eCommerceMakePayment -->
+    </classes>
+  </test> <!-- 02_eCommerce_PayBylink(failed) -->
+</suite> <!-- Failed suite [1stPayVPOS: CreatePayLink] -->

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VPOS_PayLink]">
+  <test thread-count="5" name="01_TestBase(failed)">
+    <classes>
+      <class name="testClassCreatePaylink.baseClass">
+        <methods>
+          <include name="NavigatetoURL"/>
+        </methods>
+      </class> <!-- testClassCreatePaylink.baseClass -->
+    </classes>
+  </test> <!-- 01_TestBase(failed) -->
+  <test thread-count="5" name="02_eCommerce_PayBylink(failed)">
+    <classes>
+      <class name="testClassCreatePaylink.eCommerceMakePayment">
+        <methods>
+          <include name="fnmakepaymentVisa"/>
+          <include name="fnDelete"/>
+          <include name="fncopiedlinkDiscoverCard"/>
+          <include name="fncopiedlinkAmexCard"/>
+          <include name="fncreatelinkDiscoverCard"/>
+          <include name="NavigatetoURL"/>
+          <include name="fnClose"/>
+          <include name="fncopiedlinkMasterCard"/>
+          <include name="fncreatelink"/>
+          <include name="fnDeleteMasterCard"/>
+          <include name="fnmakepaymentDiscoverCard"/>
+          <include name="fncreatelinkMasterCard"/>
+          <include name="fn1stVPOS"/>
+          <include name="fnLogout"/>
+          <include name="fnmakepaymentMasterCard"/>
+          <include name="fnLogin"/>
+          <include name="fnDeleteAmexCard"/>
+          <include name="fncopiedlink"/>
+          <include name="fnDeleteDiscoverCard"/>
+          <include name="fncreatelinkAmexCard"/>
+          <include name="fnmakepaymentAmexCard"/>
+        </methods>
+      </class> <!-- testClassCreatePaylink.eCommerceMakePayment -->
+    </classes>
+  </test> <!-- 02_eCommerce_PayBylink(failed) -->
+</suite> <!-- Failed suite [VPOS_PayLink] -->

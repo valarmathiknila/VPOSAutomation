@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" name="MyApp" packages="">
+
+<Properties>
+<Property name="log-path">.\\Logs/</Property>
+</Properties>
+
+<Appenders>
+<RollingFile name="InfoLogger" fileName="${log-path}Applog.${date:yyyy-MM-dd}.log" filePattern="${log-path}/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+<PatternLayout>
+<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+</PatternLayout>
+<Policies>
+<TimeBasedTriggeringPolicy />
+<SizeBasedTriggeringPolicy size="10 MB" />
+</Policies>
+</RollingFile>
+
+</Appenders>
+
+<Loggers level="INFO">
+<Root level="INFO">
+<AppenderRef ref="InfoLogger"/>
+</Root>
+</Loggers>
+
+</Configuration>

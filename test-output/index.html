@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink">
+              <span class="suite-name border-failed">1stPayVPOS: CreatePayLink</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-1stPayVPOS:_CreatePayLink">
+                    <span>C:\Users\User\workspace\1stPayVPOS\src\test\java\testClassCreatePaylink\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-1stPayVPOS:_CreatePayLink">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-1stPayVPOS:_CreatePayLink">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-1stPayVPOS:_CreatePayLink">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-1stPayVPOS:_CreatePayLink">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-1stPayVPOS:_CreatePayLink">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-1stPayVPOS:_CreatePayLink">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 1 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-1stPayVPOS:_CreatePayLink" class="hide-methods failed suite-1stPayVPOS:_CreatePayLink"> (hide)</a> <!-- hide-methods failed suite-1stPayVPOS:_CreatePayLink -->
+                      <a href="#" panel-name="suite-1stPayVPOS:_CreatePayLink" class="show-methods failed suite-1stPayVPOS:_CreatePayLink"> (show)</a> <!-- show-methods failed suite-1stPayVPOS:_CreatePayLink -->
+                    </span>
+                    <div class="method-list-content failed suite-1stPayVPOS:_CreatePayLink">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnDeleteMasterCard">fnDeleteMasterCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-1stPayVPOS:_CreatePayLink -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-1stPayVPOS:_CreatePayLink" class="hide-methods passed suite-1stPayVPOS:_CreatePayLink"> (hide)</a> <!-- hide-methods passed suite-1stPayVPOS:_CreatePayLink -->
+                      <a href="#" panel-name="suite-1stPayVPOS:_CreatePayLink" class="show-methods passed suite-1stPayVPOS:_CreatePayLink"> (show)</a> <!-- show-methods passed suite-1stPayVPOS:_CreatePayLink -->
+                    </span>
+                    <div class="method-list-content passed suite-1stPayVPOS:_CreatePayLink">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.baseClass" hash-for-method="NavigatetoURL">NavigatetoURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fn1stVPOS">fn1stVPOS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnDelete">fnDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnDeleteAmexCard">fnDeleteAmexCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnDeleteDiscoverCard">fnDeleteDiscoverCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnLogin">fnLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnLogout">fnLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fncopiedlink">fncopiedlink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fncopiedlinkAmexCard">fncopiedlinkAmexCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fncopiedlinkDiscoverCard">fncopiedlinkDiscoverCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fncopiedlinkMasterCard">fncopiedlinkMasterCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fncreatelink">fncreatelink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fncreatelinkAmexCard">fncreatelinkAmexCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fncreatelinkDiscoverCard">fncreatelinkDiscoverCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fncreatelinkMasterCard">fncreatelinkMasterCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnmakepaymentAmexCard">fnmakepaymentAmexCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnmakepaymentDiscoverCard">fnmakepaymentDiscoverCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnmakepaymentMasterCard">fnmakepaymentMasterCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-1stPayVPOS:_CreatePayLink" title="testClassCreatePaylink.eCommerceMakePayment" hash-for-method="fnmakepaymentVisa">fnmakepaymentVisa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-1stPayVPOS:_CreatePayLink -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-1stPayVPOS:_CreatePayLink" class="panel 1stPayVPOS:_CreatePayLink">
+          <div class="suite-1stPayVPOS:_CreatePayLink-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testClassCreatePaylink.eCommerceMakePayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnDeleteMasterCard">
+                  </a> <!-- fnDeleteMasterCard -->
+                  <span class="method-name">fnDeleteMasterCard</span>
+                  <div class="stack-trace">java.lang.AssertionError: Expected condition failed: waiting for presence of element located by: By.xpath: //h5[contains(text(),&apos;delete&apos;)] (tried for 100 second(s) with 500 milliseconds interval)
+	at testClassCreatePaylink.eCommerceMakePayment.fnDeleteRow(eCommerceMakePayment.java:601)
+	at testClassCreatePaylink.eCommerceMakePayment.fnDeleteMasterCard(eCommerceMakePayment.java:253)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-1stPayVPOS:_CreatePayLink-class-failed -->
+          <div class="suite-1stPayVPOS:_CreatePayLink-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClassCreatePaylink.baseClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigatetoURL">
+                  </a> <!-- NavigatetoURL -->
+                  <span class="method-name">NavigatetoURL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-1stPayVPOS:_CreatePayLink-class-passed -->
+          <div class="suite-1stPayVPOS:_CreatePayLink-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testClassCreatePaylink.eCommerceMakePayment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fn1stVPOS">
+                  </a> <!-- fn1stVPOS -->
+                  <span class="method-name">fn1stVPOS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnDelete">
+                  </a> <!-- fnDelete -->
+                  <span class="method-name">fnDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnDeleteAmexCard">
+                  </a> <!-- fnDeleteAmexCard -->
+                  <span class="method-name">fnDeleteAmexCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnDeleteDiscoverCard">
+                  </a> <!-- fnDeleteDiscoverCard -->
+                  <span class="method-name">fnDeleteDiscoverCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnLogin">
+                  </a> <!-- fnLogin -->
+                  <span class="method-name">fnLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnLogout">
+                  </a> <!-- fnLogout -->
+                  <span class="method-name">fnLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fncopiedlink">
+                  </a> <!-- fncopiedlink -->
+                  <span class="method-name">fncopiedlink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fncopiedlinkAmexCard">
+                  </a> <!-- fncopiedlinkAmexCard -->
+                  <span class="method-name">fncopiedlinkAmexCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fncopiedlinkDiscoverCard">
+                  </a> <!-- fncopiedlinkDiscoverCard -->
+                  <span class="method-name">fncopiedlinkDiscoverCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fncopiedlinkMasterCard">
+                  </a> <!-- fncopiedlinkMasterCard -->
+                  <span class="method-name">fncopiedlinkMasterCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fncreatelink">
+                  </a> <!-- fncreatelink -->
+                  <span class="method-name">fncreatelink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fncreatelinkAmexCard">
+                  </a> <!-- fncreatelinkAmexCard -->
+                  <span class="method-name">fncreatelinkAmexCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fncreatelinkDiscoverCard">
+                  </a> <!-- fncreatelinkDiscoverCard -->
+                  <span class="method-name">fncreatelinkDiscoverCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fncreatelinkMasterCard">
+                  </a> <!-- fncreatelinkMasterCard -->
+                  <span class="method-name">fncreatelinkMasterCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnmakepaymentAmexCard">
+                  </a> <!-- fnmakepaymentAmexCard -->
+                  <span class="method-name">fnmakepaymentAmexCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnmakepaymentDiscoverCard">
+                  </a> <!-- fnmakepaymentDiscoverCard -->
+                  <span class="method-name">fnmakepaymentDiscoverCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnmakepaymentMasterCard">
+                  </a> <!-- fnmakepaymentMasterCard -->
+                  <span class="method-name">fnmakepaymentMasterCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fnmakepaymentVisa">
+                  </a> <!-- fnmakepaymentVisa -->
+                  <span class="method-name">fnmakepaymentVisa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-1stPayVPOS:_CreatePayLink-class-passed -->
+        </div> <!-- panel 1stPayVPOS:_CreatePayLink -->
+        <div panel-name="test-xml-1stPayVPOS:_CreatePayLink" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\User\workspace\1stPayVPOS\src\test\java\testClassCreatePaylink\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;1stPayVPOS: CreatePayLink&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;01_TestBase&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testClassCreatePaylink.baseClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 01_TestBase --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;02_eCommerce_PayBylink&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testClassCreatePaylink.eCommerceMakePayment&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 02_eCommerce_PayBylink --&gt;
+&lt;/suite&gt; &lt;!-- 1stPayVPOS: CreatePayLink --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-1stPayVPOS:_CreatePayLink" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 1stPayVPOS: CreatePayLink</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">01_TestBase (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">02_eCommerce_PayBylink (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-1stPayVPOS:_CreatePayLink" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 1stPayVPOS: CreatePayLink</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-1stPayVPOS:_CreatePayLink" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 1stPayVPOS: CreatePayLink</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_1stPayVPOS:_CreatePayLink');
+function tableData_1stPayVPOS:_CreatePayLink() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'fnDeleteMasterCard')
+data.setCell(0, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(0, 3, 129490);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fnDeleteAmexCard')
+data.setCell(1, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(1, 3, 56005);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fnDelete')
+data.setCell(2, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(2, 3, 55857);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'fnDeleteDiscoverCard')
+data.setCell(3, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(3, 3, 53126);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fn1stVPOS')
+data.setCell(4, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(4, 3, 18379);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'NavigatetoURL')
+data.setCell(5, 2, 'testClassCreatePaylink.baseClass')
+data.setCell(5, 3, 16820);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'fncreatelinkAmexCard')
+data.setCell(6, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(6, 3, 11493);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'fncreatelinkMasterCard')
+data.setCell(7, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(7, 3, 10855);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'fnmakepaymentVisa')
+data.setCell(8, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(8, 3, 8408);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'fncreatelink')
+data.setCell(9, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(9, 3, 8228);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'fncreatelinkDiscoverCard')
+data.setCell(10, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(10, 3, 7617);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'fnmakepaymentMasterCard')
+data.setCell(11, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(11, 3, 5155);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'fnmakepaymentAmexCard')
+data.setCell(12, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(12, 3, 4855);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'fnmakepaymentDiscoverCard')
+data.setCell(13, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(13, 3, 4651);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'fnLogin')
+data.setCell(14, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(14, 3, 3013);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'fnLogout')
+data.setCell(15, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(15, 3, 1818);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'fncopiedlink')
+data.setCell(16, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(16, 3, 540);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'fncopiedlinkMasterCard')
+data.setCell(17, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(17, 3, 340);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'fncopiedlinkAmexCard')
+data.setCell(18, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(18, 3, 339);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'fncopiedlinkDiscoverCard')
+data.setCell(19, 2, 'testClassCreatePaylink.eCommerceMakePayment')
+data.setCell(19, 3, 332);
+window.suiteTableData['1stPayVPOS:_CreatePayLink']= { tableData: data, tableDiv: 'times-div-1stPayVPOS:_CreatePayLink'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-1stPayVPOS:_CreatePayLink">
+              </div> <!-- times-div-1stPayVPOS:_CreatePayLink -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-1stPayVPOS:_CreatePayLink" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 1stPayVPOS: CreatePayLink</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-1stPayVPOS:_CreatePayLink" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-1stPayVPOS:_CreatePayLink" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClassCreatePaylink.baseClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">NavigatetoURL</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testClassCreatePaylink.eCommerceMakePayment</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">NavigatetoURL</span>
+                <span class="method-start">17019 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">fnLogin</span>
+                <span class="method-start">19504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fn1stVPOS</span>
+                <span class="method-start">24617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fncreatelink</span>
+                <span class="method-start">44293 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fncopiedlink</span>
+                <span class="method-start">53089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fnmakepaymentVisa</span>
+                <span class="method-start">54243 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fnDelete</span>
+                <span class="method-start">63160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fncreatelinkMasterCard</span>
+                <span class="method-start">119575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fncopiedlinkMasterCard</span>
+                <span class="method-start">131134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fnmakepaymentMasterCard</span>
+                <span class="method-start">132109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">fnDeleteMasterCard</span>
+                <span class="method-start">138209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fncreatelinkAmexCard</span>
+                <span class="method-start">268294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fncopiedlinkAmexCard</span>
+                <span class="method-start">280364 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fnmakepaymentAmexCard</span>
+                <span class="method-start">281316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fnDeleteAmexCard</span>
+                <span class="method-start">287117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fncreatelinkDiscoverCard</span>
+                <span class="method-start">343811 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fncopiedlinkDiscoverCard</span>
+                <span class="method-start">352011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fnmakepaymentDiscoverCard</span>
+                <span class="method-start">352953 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fnDeleteDiscoverCard</span>
+                <span class="method-start">358557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fnLogout</span>
+                <span class="method-start">412270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">fnClose</span>
+                <span class="method-start">416041 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
