@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [1stPayVPOS: CreatePayLink]">
-  <test thread-count="5" name="02_eCommerce_PayBylink(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VPOS_PayLink]">
+  <test name="01_TestBase">
     <classes>
-      <class name="testClassCreatePaylink.eCommerceMakePayment">
-        <methods>
-          <include name="NavigatetoURL"/>
-          <include name="fnClose"/>
-          <include name="fnDeleteMasterCard"/>
-        </methods>
-      </class> <!-- testClassCreatePaylink.eCommerceMakePayment -->
+      <class name="VPOS_PayLink.TestBase"/>
     </classes>
-  </test> <!-- 02_eCommerce_PayBylink(failed) -->
-</suite> <!-- Failed suite [1stPayVPOS: CreatePayLink] -->
+  </test> <!-- 01_TestBase -->
+  <test name="07_eCOM_SALE_TC1">
+    <classes>
+      <class name="VPOS_eCOM_MODULE_TC.eCOM_SALE_TC1"/>
+    </classes>
+  </test> <!-- 07_eCOM_SALE_TC1 -->
+  <test name="07_eCOM_SALE_TC1(failed)">
+    <classes>
+      <class name="VPOS_eCOM_MODULE_TC.eCOM_SALE_TC1">
+        <methods>
+          <include name="fnmakesaleRec"/>
+          <include name="NavigatetoURL"/>
+        </methods>
+      </class> <!-- VPOS_eCOM_MODULE_TC.eCOM_SALE_TC1 -->
+    </classes>
+  </test> <!-- 07_eCOM_SALE_TC1(failed) -->
+</suite> <!-- Failed suite [VPOS_PayLink] -->
